@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #043d27;
+  --bg-color-product: #b4c5bf;
+  --bg-color-nav: #fbf0e4;
+
+  --fz-small: 0.8rem;
+  --fz-normal: 1.25rem;
+  --fz-subheader: 1.563rem;
+  --fz-header: 1.953rem;
+  --fz-title: 2.441rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}

@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 2em 0;
+  color: var(--primary-color);
+}
+
+.item-title {
+  font-weight: 600;
+}
+
+.item-actions {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e7e7e;
+}
+
+.item-actions > * {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.item-actions > button {
+  color: inherit;
+  font-size: var(--fz-normal);
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}

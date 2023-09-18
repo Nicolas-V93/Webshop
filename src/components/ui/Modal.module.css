@@ -1,0 +1,20 @@
+.modal {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+.btn-dismiss {
+  display: block;
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: var(--fz-normal);
+  font-weight: 600;
+}
